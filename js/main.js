@@ -48,20 +48,20 @@ const toggleMenu = () => {
     document.querySelector(".menu-btn").classList.add("close");
     document
       .querySelector(".sidebar")
-      .setAttribute("style", "margin-left:0px;");
-    document;
-    // .querySelector(".sidebar")
-    // .setAttribute("style", "visibility:visible;");
+      .setAttribute("style", "visibility:visible; margin-left:0px;");
+    // document
+    //   .querySelector(".sidebar")
+    //   .setAttribute("style", "visibility:visible;");
 
     showMenu = true;
   } else {
     document.querySelector(".menu-btn").classList.remove("close");
     document
       .querySelector(".sidebar")
-      .setAttribute("style", "margin-left:-250px;");
-    document;
-    // .querySelector(".sidebar")
-    // .setAttribute("style", "visibility:hidden;");
+      .setAttribute("style", "visibility:hidden; margin-left:-250px;");
+    // document
+    //   .querySelector(".sidebar")
+    //   .setAttribute("style", "visibility:hidden;");
 
     showMenu = false;
   }
