@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artisao Technologies</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./fontawesome/all.min.css" />
-    <!-- <link
+    <!-- <link rel="stylesheet" href="./fontawesome/all.min.css" /> -->
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    /> -->
+    />
   </head>
   <body>
     <div id="spinner"><i class="fa fa-spinner fa-spin"></i></div>
@@ -209,7 +209,7 @@
           <div class="card">
             <div class="text-card">
               <h3>E-commerce</h3>
-              <img src="./img/projects/artisao.png" alt="ecommerce" srcset="" />
+              <img src="./img/projects/artisao.jpg" alt="ecommerce" srcset="" />
               <div class="middle">
                 <div class="middle-text">
                   <a href="./demo/ecommerce.html">Watch Demo</a>
@@ -219,7 +219,7 @@
 
             <div class="text-card">
               <h3>Health and Recreation</h3>
-              <img src="./img/projects/masartgh.png" alt="health" srcset="" />
+              <img src="./img/projects/masartgh.jpg" alt="health" srcset="" />
               <div class="middle">
                 <div class="middle-text">
                   <a href="./demo/health.html">Watch Demo</a>
@@ -229,7 +229,7 @@
 
             <div class="text-card">
               <h3>CRMs</h3>
-              <img src="./img/projects/crm.png" alt="ecommerce" srcset="" />
+              <img src="./img/projects/crm.jpg" alt="ecommerce" srcset="" />
               <div class="middle">
                 <div class="middle-text">
                   <a href="#">Watch Demo</a>
@@ -239,7 +239,7 @@
 
             <div class="text-card">
               <h3>Entertainment</h3>
-              <img src="./img/projects/spotify.png" alt="ecommerce" srcset="" />
+              <img src="./img/projects/spotify.jpg" alt="ecommerce" srcset="" />
               <div class="middle">
                 <div class="middle-text">
                   <a href="#">Watch Demo</a>
@@ -250,7 +250,7 @@
             <div class="text-card">
               <h3>Database Systems</h3>
               <img
-                src="./img/projects/dbsysytem.png"
+                src="./img/projects/dbsysytem.jpg"
                 alt="dbsystem"
                 srcset=""
               />
@@ -264,7 +264,7 @@
             <div class="text-card">
               <h3>Desktop Application - School Mgt System</h3>
               <img
-                src="./img/projects/desktop app.png"
+                src="./img/projects/desktop app.jpg"
                 alt="desktop app"
                 srcset=""
               />
@@ -278,7 +278,7 @@
             <div class="text-card">
               <h3>Classifieds</h3>
               <img
-                src="./img/projects/classifieds.png"
+                src="./img/projects/classifieds.jpg"
                 alt="ecommerce"
                 srcset=""
               />
@@ -292,7 +292,7 @@
             <div class="text-card">
               <h3>Wordpress</h3>
               <img
-                src="./img/projects/wordpress.png"
+                src="./img/projects/wordpress.jpg"
                 alt="wordpress"
                 srcset=""
               />
@@ -361,8 +361,8 @@
     </div>
 
     <script src="./js/main.js" defer></script>
-    <script src="./fontawesome/all.min.js" defer></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script> -->
+    <!-- <script src="./fontawesome/all.min.js" defer></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
   </body>
   <footer id="main-footer" class="show-body">
     Copyright &copy; 2021 | Artisao Technologies

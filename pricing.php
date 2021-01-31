@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./fontawesome/all.min.css" />
-    <!-- <link
+    <!-- <link rel="stylesheet" href="./fontawesome/all.min.css" /> -->
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    /> -->
+    />
   </head>
   <body>
     <div id="spinner"><i class="fa fa-spinner fa-spin"></i></div>
@@ -282,7 +282,8 @@
     </div>
 
     <script src="./js/demo.js" defer></script>
-    <script src="./fontawesome/all.min.js" defer></script>
+    <!-- <script src="./fontawesome/all.min.js" defer></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
   </body>
   <footer id="main-footer" class="show-body">
     Copyright &copy; 2021 | Artisao Technologies
