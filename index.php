@@ -212,7 +212,7 @@
               <img src="./img/projects/artisao.jpg" alt="ecommerce" srcset="" />
               <div class="middle">
                 <div class="middle-text">
-                  <a href="./demo/ecommerce.html">Watch Demo</a>
+                  <a href="./demo/ecommerce.php">Watch Demo</a>
                 </div>
               </div>
             </div>
@@ -222,7 +222,7 @@
               <img src="./img/projects/masartgh.jpg" alt="health" srcset="" />
               <div class="middle">
                 <div class="middle-text">
-                  <a href="./demo/health.html">Watch Demo</a>
+                  <a href="./demo/health.php">Watch Demo</a>
                 </div>
               </div>
             </div>
@@ -256,7 +256,7 @@
               />
               <div class="middle">
                 <div class="middle-text">
-                  <a href="./demo/dbsystem.html">Watch Demo</a>
+                  <a href="./demo/dbsystem.php">Watch Demo</a>
                 </div>
               </div>
             </div>
@@ -270,7 +270,7 @@
               />
               <div class="middle">
                 <div class="middle-text">
-                  <a href="./demo/desktop.html">Watch Demo</a>
+                  <a href="./demo/desktop.php">Watch Demo</a>
                 </div>
               </div>
             </div>
@@ -298,7 +298,7 @@
               />
               <div class="middle">
                 <div class="middle-text">
-                  <a href="./demo/wordpress.html">Watch Demo</a>
+                  <a href="./demo/wordpress.php">Watch Demo</a>
                 </div>
               </div>
             </div>

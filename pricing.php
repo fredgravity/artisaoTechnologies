@@ -30,7 +30,7 @@
         </div>
         <ul class="menu-nav">
           <li class="nav-item current">
-            <a href="./index.html" class="nav-link">Home</a>
+            <a href="./index.php" class="nav-link">Home</a>
           </li>
         </ul>
       </nav>
@@ -45,7 +45,7 @@
       </div>
       <ul class="menu-nav">
         <li class="nav-item current">
-          <a href="/dist/index.html" class="nav-link">Home</a>
+          <a href="./index.php" class="nav-link">Home</a>
         </li>
       </ul>
     </div>

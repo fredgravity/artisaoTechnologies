@@ -30,7 +30,7 @@
         </div>
         <ul class="menu-nav">
           <li class="nav-item current">
-            <a href="../index.html" class="nav-link">Home</a>
+            <a href="../index.php" class="nav-link">Home</a>
           </li>
           
         </ul>
@@ -46,7 +46,7 @@
       </div>
       <ul class="menu-nav">
         <li class="nav-item current">
-          <a href="../index.html" class="nav-link">Home</a>
+          <a href="../index.php" class="nav-link">Home</a>
         </li>
         
       </ul>
@@ -86,7 +86,7 @@
               <li>Other services/functionalities agreed on.</li>
             </p>
             <div class="pricing-btn">
-                <a href="../pricing.html">Pricing</a>
+                <a href="../pricing.php">Pricing</a>
             </div>
           </div>
           <div class="text-card">
