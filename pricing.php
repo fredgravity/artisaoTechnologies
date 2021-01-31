@@ -60,7 +60,7 @@
         
         <div class="card">
             <div class="text-card">
-                <h4 class="cedis">&#8373; 900 - 1300</h4>
+                <h4 class="cedis">&#8373; 900 - 1,300</h4>
               <h3>Basic </h3> <hr> <br>
               <p>
                 <div>
