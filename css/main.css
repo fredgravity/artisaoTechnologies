@@ -66,7 +66,7 @@
   top: 0;
   left: 0;
   padding: 0.5rem;
-  transition: margin-left ease 0.2s; }
+  transition: margin-left ease 0.4s; }
   .sidebar .menu-branding {
     color: #5e88fc;
     text-align: center;
@@ -90,15 +90,22 @@
 
 #about-section {
   background: #f4f4fd; }
+  #about-section .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between; }
   #about-section .text-card:nth-child(1) {
-    background: ghostwhite; }
+    background: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
     #about-section .text-card:nth-child(1) .about-gif {
       background-color: ghostwhite; }
       #about-section .text-card:nth-child(1) .about-gif img {
-        height: 400px; }
+        height: 400px;
+        width: 100%; }
   #about-section .text-card:nth-child(2) {
     background: ghostwhite;
-    color: black; }
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
     #about-section .text-card:nth-child(2) h3 {
       text-transform: capitalize; }
 
@@ -112,18 +119,22 @@
   #service-section li {
     margin: 8px 0;
     list-style: disc; }
+  #service-section .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between; }
   #service-section .text-card:nth-child(1) {
     background: #f4f4fd;
-    color: black; }
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
   #service-section .text-card:nth-child(2) {
     background: ghostwhite;
-    color: black; }
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
   #service-section .text-card:nth-child(3) {
     background: ghostwhite;
-    color: black; }
-  #service-section .text-card:nth-child(4) {
-    background: ghostwhite;
-    color: black; }
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
 
 #portfolio-section {
   background: #f4f4fd; }
@@ -135,20 +146,43 @@
     #portfolio-section .card .text-card {
       background: ghostwhite;
       color: #5e88fc;
-      margin: 0; }
+      margin: 0;
+      position: relative;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
       #portfolio-section .card .text-card img {
         height: 200px;
-        width: 300px; }
+        width: 300px;
+        transition: all ease 0.2s; }
+      #portfolio-section .card .text-card .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 500;
+        transform: translate(-50%, -50%);
+        background: #5e88fc;
+        padding: 0.6rem;
+        border-radius: 0.3rem;
+        opacity: 0;
+        transition: all ease 0.2s; }
+        #portfolio-section .card .text-card .middle .middle-text a {
+          color: #f4f4fd;
+          text-decoration: none; }
       #portfolio-section .card .text-card:hover {
         cursor: pointer;
-        background: #d6d6d6;
+        background: black;
         transition: all 1s ease-out;
-        border-bottom: solid 6px #000; }
+        border-bottom: solid 6px #5e88fc; }
+        #portfolio-section .card .text-card:hover:hover img {
+          opacity: 0.3; }
+        #portfolio-section .card .text-card:hover:hover .middle {
+          opacity: 1; }
 
 #contact-section .contact-text-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   background-color: #f4f4fd; }
   #contact-section .contact-text-card .text-card:nth-child(1) {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     background: none;
     border: none;
     color: black; }
@@ -179,9 +213,130 @@
           font-size: 1.5rem; }
   #contact-section .contact-text-card .text-card:nth-child(2) {
     background: #f4f4fd;
-    color: black; }
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
     #contact-section .contact-text-card .text-card:nth-child(2) img {
       width: 400px; }
+
+#demo-section .demo-container {
+  background: #5d5d5d;
+  height: 100vh;
+  width: 100%; }
+  #demo-section .demo-container iframe {
+    width: 100%;
+    margin-top: 4.5rem;
+    height: 90vh; }
+
+#demo-details {
+  background: #fff; }
+  #demo-details .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    #demo-details .container .text-card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+      background: #c5c5ff;
+      color: #000;
+      margin: 20px;
+      padding: 20px;
+      border-bottom: 6px solid #5e88fc; }
+      #demo-details .container .text-card h3 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        font-size: 20px; }
+      #demo-details .container .text-card h5 {
+        text-align: center;
+        margin: 0.5rem;
+        background: #5e88fc;
+        padding: 0.5rem;
+        color: #f4f4fd; }
+      #demo-details .container .text-card .text-details h4 {
+        padding: 0.2rem; }
+      #demo-details .container .text-card .text-details .second-text {
+        color: #5e88fc;
+        margin-right: 0.5rem; }
+      #demo-details .container .text-card .package-list {
+        margin-top: 1rem; }
+        #demo-details .container .text-card .package-list li {
+          margin-top: 0.2rem;
+          border-bottom: #5e88fc solid 1px;
+          padding: 0.5rem 0.2rem;
+          list-style: none; }
+
+.pricing-header {
+  position: absolute;
+  top: 100px; }
+  .pricing-header h2 {
+    font-size: 2rem;
+    color: #5e88fc; }
+
+#pricing-section .card {
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between; }
+  #pricing-section .card .text-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    background-color: #f4f4fd;
+    color: black;
+    position: relative;
+    cursor: pointer;
+    transition: all ease 0.2s; }
+    #pricing-section .card .text-card div {
+      margin: 0.2rem 0;
+      border-bottom: solid 1px gray;
+      padding: 3px 0; }
+    #pricing-section .card .text-card:hover {
+      background-color: #9e9eed; }
+      #pricing-section .card .text-card:hover h3 {
+        color: #f4f4fd; }
+    #pricing-section .card .text-card h3 {
+      color: #5e88fc;
+      margin-top: 4rem; }
+    #pricing-section .card .text-card .cedis {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 1rem;
+      background: greenyellow;
+      margin-right: 0.3rem;
+      height: 60px;
+      color: gray;
+      font-size: 1.3rem; }
+
+.pricing-contact {
+  width: 100%;
+  height: 300px;
+  background: url("../img/startup.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1rem; }
+  .pricing-contact .address {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: ghostwhite; }
+  .pricing-contact .socials {
+    text-align: center; }
+    .pricing-contact .socials a {
+      padding: 0.4rem;
+      font-size: 1.5rem; }
+
+.pricing-reach-us {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  width: 200px;
+  transform: translateY(15px);
+  text-align: center;
+  font-size: 2rem;
+  color: #5e88fc;
+  margin-top: 2rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
 
 * {
   margin: 0;
@@ -219,6 +374,7 @@ section {
       background-attachment: fixed;
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: center;
       height: 100vh;
       width: 100%;
       filter: blur(0.5px);
@@ -235,7 +391,7 @@ section {
     section:nth-child(1) h1 {
       font-size: 5rem;
       font-weight: 10;
-      padding: 0 4rem; }
+      padding: 0 3rem; }
     section:nth-child(1) img {
       visibility: hidden;
       height: 70px;
@@ -250,6 +406,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: white; }
   section:nth-child(4) {
     background: ghostwhite; }
@@ -258,6 +415,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: white; }
   section .container {
     margin: 100px; }
@@ -274,7 +432,7 @@ section {
     display: flex; }
     section .card .text-card {
       background: #000;
-      color: ghostwhite;
+      color: #c5c5ff;
       margin: 20px;
       padding: 20px;
       border-bottom: 6px solid #5e88fc; }
@@ -303,6 +461,34 @@ section {
       transform: translateY(0px);
       opacity: 1; }
 
+.pricing-btn {
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #008600;
+  padding: 0.6rem;
+  width: 60%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1s ease-out; }
+  .pricing-btn a {
+    color: #f4f4fd;
+    text-decoration: none; }
+  .pricing-btn:hover {
+    background-color: #5e88fc; }
+
+.home-pricing-btn {
+  position: absolute;
+  width: 120px;
+  transform: translateY(200px);
+  opacity: 0;
+  color: #f4f4fd;
+  text-decoration: none; }
+
+.check-color {
+  color: yellowgreen; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -322,7 +508,16 @@ section {
   .menu-btn {
     visibility: hidden; }
   #portfolio-section .card {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+    #portfolio-section .card .text-card {
+      text-align: center;
+      width: 290px; }
+      #portfolio-section .card .text-card h3 {
+        font-size: 1rem;
+        font-weight: 0.2rem; }
+      #portfolio-section .card .text-card img {
+        height: 150px;
+        width: 250px; } }
 
 @media screen and (max-width: 768px) {
   section:nth-child(1) h1 {
@@ -337,16 +532,21 @@ section {
   #portfolio-section .card {
     grid-template-columns: repeat(2, 1fr); }
     #portfolio-section .card .text-card {
-      text-align: center; }
+      text-align: center;
+      width: 150px; }
+      #portfolio-section .card .text-card h3 {
+        font-size: 0.8rem;
+        font-weight: 0.2rem; }
       #portfolio-section .card .text-card img {
         height: 100px;
-        width: 200px; }
+        width: 100px; }
+  #about-section .card {
+    grid-template-columns: repeat(2, 1fr); }
   #about-section .text-card:nth-child(1) .about-gif {
-    background-color: ghostwhite; }
+    background-color: ghostwhite;
+    text-align: center; }
     #about-section .text-card:nth-child(1) .about-gif img {
       height: 200px; }
-  .contact-text-card {
-    flex-direction: column; }
   .sidebar {
     width: 200px;
     visibility: hidden; }
@@ -357,12 +557,24 @@ section {
         margin: 0; }
         .sidebar .menu-nav li a {
           font-size: 1.2rem; }
-  #contact-section .contact-text-card .text-card:nth-child(2) {
-    text-align: center; }
-    #contact-section .contact-text-card .text-card:nth-child(2) img {
-      width: 200px; }
+  #service-section .card {
+    grid-template-columns: repeat(2, 1fr); }
+  #contact-section .contact-text-card {
+    grid-template-columns: repeat(1, 1fr); }
+    #contact-section .contact-text-card .text-card:nth-child(2) {
+      text-align: center; }
+      #contact-section .contact-text-card .text-card:nth-child(2) img {
+        width: 200px; }
   .logo {
-    height: 25px; } }
+    height: 25px; }
+  #pricing-section .pricing-header h2 {
+    font-size: 1.5rem; }
+  #pricing-section .card {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 14rem; }
+  #demo-details .container {
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 300px; } }
 
 @media screen and (max-width: 500px) {
   section:nth-child(1) h1 {
@@ -380,12 +592,11 @@ section {
   #portfolio-section .card {
     grid-template-columns: repeat(1, 1fr); }
     #portfolio-section .card .text-card {
-      text-align: center; }
+      text-align: center;
+      min-width: 300px; }
       #portfolio-section .card .text-card img {
-        height: 100px;
-        width: 200px; }
-  .contact-text-card {
-    flex-direction: column; }
+        height: 110px;
+        min-width: 250px; }
   .sidebar {
     width: 200px;
     visibility: hidden; }
@@ -400,13 +611,33 @@ section {
         margin: 0; }
         .sidebar .menu-nav li a {
           font-size: 1.2rem; }
+  #about-section .card {
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 300px; }
   #about-section .text-card:nth-child(1) .about-gif {
     background-color: ghostwhite; }
     #about-section .text-card:nth-child(1) .about-gif img {
       height: 200px; }
-  #contact-section .contact-text-card .text-card:nth-child(2) {
-    text-align: center; }
-    #contact-section .contact-text-card .text-card:nth-child(2) img {
-      width: 200px; }
+  #service-section .card {
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 300px; }
+  #contact-section .contact-text-card {
+    grid-template-columns: repeat(1, 1fr); }
+    #contact-section .contact-text-card .text-card .socials a {
+      font-size: 0.4rem; }
+    #contact-section .contact-text-card .text-card:nth-child(2) {
+      text-align: center; }
+      #contact-section .contact-text-card .text-card:nth-child(2) img {
+        width: 200px; }
   .logo {
-    height: 25px; } }
+    height: 25px; }
+  #pricing-section .pricing-header {
+    margin-top: 0; }
+    #pricing-section .pricing-header h2 {
+      font-size: 1.4rem; }
+  #pricing-section .card {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 14rem; }
+  #demo-details .container {
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 300px; } }

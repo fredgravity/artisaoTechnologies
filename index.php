@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artisao Technologies</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <!-- <link rel="stylesheet" href="./fontawesome/all.min.css" /> -->
-    <link
+    <link rel="stylesheet" href="./fontawesome/all.min.css" />
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    />
+    /> -->
   </head>
   <body>
     <div id="spinner"><i class="fa fa-spinner fa-spin"></i></div>
@@ -78,8 +78,12 @@
       <section>
         <div id="bg-img"></div>
         <h1 id="bg-img-text" class="home-text">
-          Create the future of your company...
+          <!-- Create the future of your company... -->
         </h1>
+
+        <a href="./pricing.html" class="pricing-btn home-pricing-btn">
+          Pricing
+        </a>
         <img
           class="arrow-down-gif"
           src="./gif/arrow-down.gif"
@@ -98,7 +102,7 @@
             </div>
             <div class="text-card">
               <h3>Wondering how to step into the future?</h3>
-              <p>
+              <!-- <p>
                 Artisao Technologies is a software and technology hub pursuing
                 technological innovation in Africa. We are of African origin
                 registered under Ghana’s Business Names Act 1962 (Act 151).
@@ -109,7 +113,7 @@
                 SKILL use their dexterity in promoting commerce, industry,
                 culture, health and general wellbeing.
               </p>
-              <br />
+              <br /> -->
               <p>
                 Our main priority is to help small scale businesses and
                 start-ups to reimage thier businesses for the digital age. In
@@ -170,10 +174,10 @@
               <li>etc...</li>
             </div>
 
-            <div class="text-card">
+            <!-- <div class="text-card">
               <h3>Graphics and Photo Works</h3>
               <p></p>
-            </div>
+            </div> -->
 
             <div class="text-card">
               <h3>Consultancy and Training</h3>
@@ -183,12 +187,12 @@
                 on
               </li>
               <li>
-                Training programmes for organisation on Social Engineering and
-                Unethical Hacking
+                Training programmes for organisations on Social Engineering
+                (Hacking) and Network Security
               </li>
               <li>
                 Training programs on basic desktop softwares such as the
-                microsoft office suite
+                microsoft office suite, etc...
               </li>
               <li>
                 Consulting on improving of exisiting IT infrastructure or
@@ -206,43 +210,69 @@
             <div class="text-card">
               <h3>E-commerce</h3>
               <img src="./img/projects/artisao.png" alt="ecommerce" srcset="" />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="./demo/ecommerce.html">Watch Demo</a>
+                </div>
+              </div>
             </div>
 
             <div class="text-card">
               <h3>Health and Recreation</h3>
-              <img
-                src="./img/projects/masartgh.png"
-                alt="ecommerce"
-                srcset=""
-              />
+              <img src="./img/projects/masartgh.png" alt="health" srcset="" />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="./demo/health.html">Watch Demo</a>
+                </div>
+              </div>
             </div>
 
             <div class="text-card">
               <h3>CRMs</h3>
               <img src="./img/projects/crm.png" alt="ecommerce" srcset="" />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="#">Watch Demo</a>
+                </div>
+              </div>
             </div>
 
             <div class="text-card">
               <h3>Entertainment</h3>
               <img src="./img/projects/spotify.png" alt="ecommerce" srcset="" />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="#">Watch Demo</a>
+                </div>
+              </div>
             </div>
 
             <div class="text-card">
               <h3>Database Systems</h3>
               <img
                 src="./img/projects/dbsysytem.png"
-                alt="ecommerce"
+                alt="dbsystem"
                 srcset=""
               />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="./demo/dbsystem.html">Watch Demo</a>
+                </div>
+              </div>
             </div>
 
             <div class="text-card">
               <h3>Desktop Application - School Mgt System</h3>
               <img
                 src="./img/projects/desktop app.png"
-                alt="ecommerce"
+                alt="desktop app"
                 srcset=""
               />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="./demo/desktop.html">Watch Demo</a>
+                </div>
+              </div>
             </div>
 
             <div class="text-card">
@@ -252,15 +282,25 @@
                 alt="ecommerce"
                 srcset=""
               />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="#">Watch Demo</a>
+                </div>
+              </div>
             </div>
 
             <div class="text-card">
               <h3>Wordpress</h3>
               <img
                 src="./img/projects/wordpress.png"
-                alt="ecommerce"
+                alt="wordpress"
                 srcset=""
               />
+              <div class="middle">
+                <div class="middle-text">
+                  <a href="./demo/wordpress.html">Watch Demo</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -273,19 +313,23 @@
             <div class="contact-text-card">
               <div class="text-card">
                 <h3>Interested in working with us?</h3>
+
                 <div class="address">
-                  <i class="fa fa-map-marker-alt"></i><br />
-                  <h4>Kings Ave, Tema Community 25. Accra-Ghana</h4>
-                </div>
-                <div class="address">
-                  <i class="fa fa-phone"></i><br />
+                  <i class="fa fa-phone"></i> Phone Number<br />
+                  <!-- <i class="fab fa-whatsapp"></i><br /> -->
                   <h4>020 - 911 47 11</h4>
                 </div>
                 <div class="address">
-                  <i class="fa fa-envelope"></i><br />
+                  <!-- <i class="fa fa-phone"></i><br /> -->
+                  <i class="fab fa-whatsapp"></i> Whatsapp<br />
+                  <h4>020 - 911 47 11</h4>
+                </div>
+                <div class="address">
+                  <i class="fa fa-envelope"></i> Email <br />
                   <h4>enquiry@artisao.com</h4>
                 </div>
                 <br />
+
                 <!-- <hr /> -->
                 <div class="socials">
                   <a href="#contact-section"
@@ -317,8 +361,8 @@
     </div>
 
     <script src="./js/main.js" defer></script>
-    <!-- <script src="./fontawesome/all.min.js" defer></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+    <script src="./fontawesome/all.min.js" defer></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script> -->
   </body>
   <footer id="main-footer" class="show-body">
     Copyright &copy; 2021 | Artisao Technologies
