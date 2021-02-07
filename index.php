@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artisao Technologies</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <!-- <link rel="stylesheet" href="./fontawesome/all.min.css" /> -->
     <link
       rel="stylesheet"
@@ -83,7 +82,7 @@
           <!-- Create the future of your company... -->
         </h1>
 
-        <a href="./pricing.html" class="pricing-btn home-pricing-btn">
+        <a href="./pricing.php" class="pricing-btn home-pricing-btn">
           Pricing
         </a>
         <img
@@ -334,7 +333,7 @@
 
                 <!-- <hr /> -->
                 <div class="socials">
-                  <a href="#contact-section"
+                  <a href="https://web.facebook.com/artisaoTechnologies"
                     ><i class="fab fa-facebook social-links"></i
                   ></a>
                   <a href="#contact-section"

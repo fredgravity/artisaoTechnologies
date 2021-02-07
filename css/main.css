@@ -54,8 +54,8 @@
           font-size: 1.11rem; }
 
 .logo {
-  height: 50px;
-  width: 120px;
+  height: 40px;
+  width: 100px;
   position: relative; }
 
 .sidebar {
@@ -152,7 +152,7 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
       #portfolio-section .card .text-card img {
         height: 200px;
-        width: 300px;
+        width: 100%;
         transition: all ease 0.2s; }
       #portfolio-section .card .text-card .middle {
         position: absolute;

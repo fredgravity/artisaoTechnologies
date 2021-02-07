@@ -260,7 +260,7 @@
 
                 <!-- <hr /> -->
                 <div class="socials">
-                  <a href="#contact-section"
+                  <a href="https://web.facebook.com/artisaoTechnologies"
                     ><i class="fab fa-facebook social-links"></i
                   ></a>
                   <a href="#contact-section"
